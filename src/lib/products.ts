@@ -84,10 +84,11 @@ export const PRODUCTS: Product[] = [
     reviews: 5421,
     emoji: "☕",
     gradient: "from-amber-600 to-orange-400",
-    blurb: "Cafe-quality espresso at home with a pro steam wand.",
+    blurb: "Cafe-quality espresso and coffee at home with a pro steam wand.",
     features: [
       "15-bar Italian pressure pump",
-      "Built-in milk frothing steam wand",
+      "Built-in milk frother for lattes & cappuccinos",
+      "Brews espresso, coffee, and specialty drinks",
       "Removable 58oz water reservoir",
     ],
     prime: true,
