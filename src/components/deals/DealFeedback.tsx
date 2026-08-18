@@ -1,37 +1,49 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useState, useSyncExternalStore } from "react";
 
 /**
  * "Did this code work?" prompt.
  *
  * The vote is stored as a quality signal for ranking and admin review. It never
- * marks a deal verified on its own. A local flag stops the same browser voting
- * repeatedly without needing to identify the visitor server-side.
+ * marks a deal verified on its own.
+ *
+ * A previous vote is remembered in local storage so the same browser is not asked
+ * twice, without identifying the visitor server-side. Local storage is read through
+ * `useSyncExternalStore` because it is exactly that — an external store — which
+ * also keeps the server render and hydration consistent.
  */
 
-type State = "idle" | "sending" | "done" | "error";
+type SubmitState = "idle" | "sending" | "error";
+
+function subscribeToStorage(onChange: () => void): () => void {
+  window.addEventListener("storage", onChange);
+  return () => window.removeEventListener("storage", onChange);
+}
+
+function readVote(key: string): string | null {
+  try {
+    return window.localStorage.getItem(key);
+  } catch {
+    // Private browsing modes can block storage; voting still works.
+    return null;
+  }
+}
 
 export default function DealFeedback({ dealId, compact = false }: { dealId: string; compact?: boolean }) {
-  const [state, setState] = useState<State>("idle");
-  const [voted, setVoted] = useState<boolean | null>(null);
-
   const storageKey = `ds_feedback_${dealId}`;
 
-  useEffect(() => {
-    try {
-      const stored = window.localStorage.getItem(storageKey);
-      if (stored === "yes" || stored === "no") {
-        setVoted(stored === "yes");
-        setState("done");
-      }
-    } catch {
-      // Private browsing modes can block storage; voting still works.
-    }
-  }, [storageKey]);
+  const getSnapshot = useCallback(() => readVote(storageKey), [storageKey]);
+  const storedVote = useSyncExternalStore(subscribeToStorage, getSnapshot, () => null);
+
+  const [submittedVote, setSubmittedVote] = useState<boolean | null>(null);
+  const [submitState, setSubmitState] = useState<SubmitState>("idle");
+
+  const vote =
+    submittedVote ?? (storedVote === "yes" ? true : storedVote === "no" ? false : null);
 
   const submit = async (worked: boolean) => {
-    setState("sending");
+    setSubmitState("sending");
     try {
       const response = await fetch(`/api/deals/${dealId}/feedback`, {
         method: "POST",
@@ -40,22 +52,22 @@ export default function DealFeedback({ dealId, compact = false }: { dealId: stri
       });
       if (!response.ok) throw new Error(`Request failed: ${response.status}`);
 
-      setVoted(worked);
-      setState("done");
       try {
         window.localStorage.setItem(storageKey, worked ? "yes" : "no");
       } catch {
-        // Ignore storage failures.
+        // Ignore storage failures — the vote was still recorded server-side.
       }
+      setSubmittedVote(worked);
+      setSubmitState("idle");
     } catch {
-      setState("error");
+      setSubmitState("error");
     }
   };
 
-  if (state === "done") {
+  if (vote !== null) {
     return (
       <p className={`text-xs font-medium text-slate-600 ${compact ? "" : "sm:text-sm"}`}>
-        {voted
+        {vote
           ? "Thanks — recorded as working. This helps rank the deal."
           : "Thanks — recorded as not working. We use this to flag the deal for review."}
       </p>
@@ -70,7 +82,7 @@ export default function DealFeedback({ dealId, compact = false }: { dealId: stri
       <button
         type="button"
         onClick={() => submit(true)}
-        disabled={state === "sending"}
+        disabled={submitState === "sending"}
         className="rounded-full border border-emerald-300 bg-white px-3 py-1 text-xs font-bold text-emerald-700 transition hover:bg-emerald-50 disabled:opacity-60"
       >
         Yes
@@ -78,12 +90,12 @@ export default function DealFeedback({ dealId, compact = false }: { dealId: stri
       <button
         type="button"
         onClick={() => submit(false)}
-        disabled={state === "sending"}
+        disabled={submitState === "sending"}
         className="rounded-full border border-rose-300 bg-white px-3 py-1 text-xs font-bold text-rose-700 transition hover:bg-rose-50 disabled:opacity-60"
       >
         No
       </button>
-      {state === "error" && (
+      {submitState === "error" && (
         <span className="text-xs text-rose-600">Could not save that — please try again.</span>
       )}
     </div>

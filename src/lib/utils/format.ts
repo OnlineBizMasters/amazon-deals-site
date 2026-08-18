@@ -39,6 +39,11 @@ export function daysUntil(iso: string | null | undefined, now = new Date()): num
   return Math.ceil((date.getTime() - now.getTime()) / 86_400_000);
 }
 
+/** ISO timestamp for N days before now, used to build "since" analytics windows. */
+export function isoDaysAgo(days: number): string {
+  return new Date(Date.now() - days * 86_400_000).toISOString();
+}
+
 export function daysSince(iso: string | null | undefined, now = new Date()): number | null {
   if (!iso) return null;
   const date = new Date(iso);

@@ -1,11 +1,11 @@
 {
-  "name": "amazon-deals-site",
+  "name": "dealscout",
   "install": "npm ci",
   "terminals": [
     {
       "name": "dev-server",
       "command": "npm run dev",
-      "description": "Next.js dev server with hot reload on http://localhost:3000"
+      "description": "Next.js dev server with hot reload on http://localhost:3000. Creates .data/dealscout.db and seeds the labelled demo catalogue on first run."
     }
   ],
   "ports": [

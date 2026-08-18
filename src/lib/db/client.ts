@@ -22,7 +22,12 @@ function resolveDbPath(): string {
   const configured = process.env.DATABASE_PATH?.trim();
   if (!configured) return DEFAULT_DB_PATH;
   if (configured === ":memory:") return configured;
-  return path.isAbsolute(configured) ? configured : path.join(process.cwd(), configured);
+  if (path.isAbsolute(configured)) return configured;
+
+  // A relative DATABASE_PATH is resolved at runtime, which the bundler cannot
+  // analyse; the ignore comment stops it tracing the whole project into the
+  // server output. Nothing is imported from this path — it is only opened.
+  return path.join(/* turbopackIgnore: true */ process.cwd(), configured);
 }
 
 function runMigrations(db: Db): void {

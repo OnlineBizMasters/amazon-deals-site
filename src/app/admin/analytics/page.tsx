@@ -16,6 +16,7 @@ import { listDeals } from "@/lib/repos/deals";
 import { feedbackTotals } from "@/lib/repos/feedback";
 import { CHANNEL_LABELS } from "@/lib/services/analytics-channels";
 import { requireAdmin } from "@/lib/auth/session";
+import { isoDaysAgo } from "@/lib/utils/format";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -34,7 +35,7 @@ export default async function AdminAnalyticsPage({ searchParams }: PageProps<"/a
   const params = await searchParams;
   const rangeKey = (Array.isArray(params.range) ? params.range[0] : params.range) ?? "30";
   const range = RANGES.find((candidate) => candidate.key === rangeKey) ?? RANGES[1];
-  const sinceIso = range.days ? new Date(Date.now() - range.days * 86_400_000).toISOString() : undefined;
+  const sinceIso = range.days ? isoDaysAgo(range.days) : undefined;
 
   const db = getDb();
   const channels = clicksByChannel({ sinceIso }, db);
