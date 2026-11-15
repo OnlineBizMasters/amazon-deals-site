@@ -1,11 +1,62 @@
 {
   "project": "OfferPeek",
-  "version": 1,
+  "version": 2,
   "channels": {
     "facebook": "6af97effece6dfde5fd00693",
     "linkedin": "6af97e48ece6dfde5fd0026d",
     "pinterest": "6af97e25ece6dfde5fd00182"
   },
   "pinterestBoardServiceId": "1084593591451936242",
-  "queue": []
+  "queue": [
+    {
+      "id": "li-001",
+      "network": "linkedin",
+      "text": "A 30% markup is not a 30% margin.\n\nIf a commercial cleaning job costs $2,000/month:\n• 30% markup = $2,600\n• 30% margin = about $2,857\n\nThat gap can quietly erase profit on recurring contracts.\n\nFree labor-first bid calculator: https://offerpeek.com/tools/commercial-cleaning-bid-calculator/?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid"
+    },
+    {
+      "id": "li-002",
+      "network": "linkedin",
+      "text": "Commercial cleaning bids get easier when you stop guessing from a price-per-square-foot number.\n\nA cleaner sequence is:\n1. Scope the job\n2. Estimate labor hours\n3. Add loaded labor + supplies\n4. Add overhead\n5. Apply target margin\n\nFree calculator: https://offerpeek.com/tools/commercial-cleaning-bid-calculator/?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid"
+    },
+    {
+      "id": "li-003",
+      "network": "linkedin",
+      "text": "A janitorial proposal should make three things obvious to the buyer: what is included, how often it is done, and what it costs.\n\nWe put together a practical guide to the sections that matter most in a commercial cleaning proposal:\nhttps://offerpeek.com/blog/what-to-include-in-a-janitorial-proposal/?utm_source=linkedin&utm_medium=social&utm_campaign=proposal"
+    },
+    {
+      "id": "li-004",
+      "network": "linkedin",
+      "text": "The fastest way to lose margin on an office-cleaning contract is to under-estimate labor.\n\nBefore quoting, separate cleanable square footage, production rate, visit frequency and loaded wage cost. The selling price should come last—not first.\n\nFree office cleaning cost calculator: https://offerpeek.com/tools/office-cleaning-cost-calculator/?utm_source=linkedin&utm_medium=social&utm_campaign=office_cleaning"
+    },
+    {
+      "id": "li-005",
+      "network": "linkedin",
+      "text": "Most small cleaning businesses do not need more leads first. They need a repeatable way to qualify, price and present the right jobs.\n\nThis checklist covers practical ways to find commercial cleaning contracts without relying only on Google Ads:\nhttps://offerpeek.com/blog/how-to-find-commercial-cleaning-contracts/?utm_source=linkedin&utm_medium=social&utm_campaign=contracts"
+    },
+    {
+      "id": "fb-001",
+      "network": "facebook",
+      "text": "If you quote commercial cleaning jobs, check the margin math before sending the proposal.\n\nA 30% markup and a 30% margin are not the same thing. On a $2,000 monthly cost, that difference is about $257 every month.\n\nFree bid calculator: https://offerpeek.com/tools/commercial-cleaning-bid-calculator/?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid"
+    },
+    {
+      "id": "fb-002",
+      "network": "facebook",
+      "text": "Free tool for cleaning business owners: estimate office-cleaning costs using your own labor rate, production rate, supplies, overhead and target margin.\n\nNo hidden market-price assumptions.\nhttps://offerpeek.com/tools/office-cleaning-cost-calculator/?utm_source=facebook&utm_medium=social&utm_campaign=office_cleaning"
+    },
+    {
+      "id": "fb-003",
+      "network": "facebook",
+      "text": "Trying to build a better commercial cleaning proposal?\n\nWe made a practical example showing how to structure scope, frequency, pricing and terms so the buyer can understand the offer quickly.\nhttps://offerpeek.com/templates/commercial-cleaning-proposal-example/?utm_source=facebook&utm_medium=social&utm_campaign=proposal"
+    },
+    {
+      "id": "fb-004",
+      "network": "facebook",
+      "text": "Renovating a mobile or manufactured home? Build the budget by category instead of using one giant remodel number.\n\nRoof, skirting, leveling, kitchen, bath, HVAC, plumbing, electrical, flooring and contingency can all be tracked separately here:\nhttps://offerpeek.com/tools/mobile-home-renovation-budget-calculator/?utm_source=facebook&utm_medium=social&utm_campaign=mobile_home"
+    },
+    {
+      "id": "fb-005",
+      "network": "facebook",
+      "text": "A useful mobile-home renovation sequence is usually: fix safety/moisture/structure first, then systems, then finishes.\n\nWe put together a practical guide covering budget, order of work and 2026 cost context:\nhttps://offerpeek.com/blog/how-to-renovate-a-mobile-home/?utm_source=facebook&utm_medium=social&utm_campaign=mobile_home"
+    }
+  ]
 }
