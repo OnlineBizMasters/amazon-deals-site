@@ -1,0 +1,11 @@
+{
+  "project": "OfferPeek",
+  "version": 1,
+  "channels": {
+    "facebook": "6af97effece6dfde5fd00693",
+    "linkedin": "6af97e48ece6dfde5fd0026d",
+    "pinterest": "6af97e25ece6dfde5fd00182"
+  },
+  "pinterestBoardServiceId": "1084593591451936242",
+  "queue": []
+}
