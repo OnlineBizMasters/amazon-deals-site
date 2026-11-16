@@ -1,6 +1,6 @@
 {
   "project": "OfferPeek",
-  "version": 3,
+  "version": 4,
   "channels": {
     "facebook": "6af97effece6dfde5fd00693",
     "linkedin": "6af97e48ece6dfde5fd0026d",
@@ -82,6 +82,50 @@
       "id": "li-aiopp-005",
       "network": "linkedin",
       "text": "A prospect should not make the list just because it matches an industry filter.\n\nA stronger opportunity has evidence.\n\nExamples:\n• manual booking or intake\n• repeated service-response complaints\n• obvious workflow friction\n• missing automation where the business volume appears to justify it\n\nResearch the problem first. Sell the solution second.\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
+    },
+    {
+      "id": "li-cleaning-os-001",
+      "network": "linkedin",
+      "text": "Commercial cleaning bids should start with your real costs — not a guessed price per square foot.\n\nCommercial Cleaning Bid OS helps you price jobs from labor, payroll burden, supplies, overhead and target margin, then turn the bid into a scope and client-ready proposal.\n\n$129 one-time. No subscription.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os"
+    },
+    {
+      "id": "fb-cleaning-os-001",
+      "network": "facebook",
+      "text": "For commercial cleaning business owners who want a repeatable bidding workflow:\n\n✓ Bid calculator based on your real costs\n✓ Scope-of-work builder\n✓ Saved bids\n✓ Printable client proposals\n✓ Walkthrough checklist\n\nCommercial Cleaning Bid OS — $129 one-time, no subscription.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os"
+    },
+    {
+      "id": "pin-cleaning-os-001",
+      "network": "pinterest",
+      "text": "Commercial Cleaning Bid Calculator & Proposal Toolkit — price janitorial jobs from labor, supplies, overhead and target margin. Includes scope-of-work builder, saved bids, printable proposals and walkthrough checklist. $129 one-time, no subscription. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "fb-vfx-mega-001",
+      "network": "facebook",
+      "text": "Building a 2D game or animation project?\n\nThis VFX Mega Bundle includes 300 animated effects, 2,400 transparent PNG frames and 300 sprite sheets across Fire, Smoke, Impact, Energy, Lightning, Magic, Water, Explosions and more.\n\nCommercial-use license. One-time download: $79.\nhttps://karadagsatis.gumroad.com/l/2d-vfx-mega-bundle?utm_source=facebook&utm_medium=social&utm_campaign=vfx_mega_bundle"
+    },
+    {
+      "id": "pin-vfx-mega-001",
+      "network": "pinterest",
+      "text": "300 Animated 2D VFX for indie games & animation — 2,400 transparent PNG frames, 300 sprite sheets, 15 FX categories and commercial-use license. Fire, smoke, impact, magic, lightning, explosions, water and more. https://karadagsatis.gumroad.com/l/2d-vfx-mega-bundle?utm_source=pinterest&utm_medium=social&utm_campaign=vfx_mega_bundle",
+      "imageUrl": "https://public-files.gumroad.com/2z1rzrz3lgcrm23t9h4m7m9hclxp"
+    },
+    {
+      "id": "pin-animation-kit-001",
+      "network": "pinterest",
+      "text": "2D Animation Starter Kit — 720+ transparent FX frames plus storyboard templates, animation practice sheets and timing charts. Fire, smoke, impact, energy, motion and water FX for animators, indie game developers and creators. https://karadagsatis.gumroad.com/l/2DAnimationStarterKit?utm_source=pinterest&utm_medium=social&utm_campaign=animation_starter_kit",
+      "imageUrl": "https://public-files.gumroad.com/u2nculvi2uuwla4q7dpe4nu2s526"
+    },
+    {
+      "id": "fb-vacation-rental-001",
+      "network": "facebook",
+      "text": "Vacation rental hosts: give guests the information they need without answering the same questions over and over.\n\nThis bundle includes an editable 80-page welcome book in 5 languages, printable layouts, Canva template and a 10-page host operations toolkit.\n\nDigital download: $7.99.\nhttps://karadagsatis.gumroad.com/l/AIRBNBWELCOMEBOOK?utm_source=facebook&utm_medium=social&utm_campaign=vacation_rental_bundle"
+    },
+    {
+      "id": "pin-vacation-rental-001",
+      "network": "pinterest",
+      "text": "Vacation Rental Welcome Book Template — editable 80-page guest guide in 5 languages, Canva template, A4/US Letter print layouts and a 10-page host operations toolkit. Ideal for short-term rental hosts and property managers. https://karadagsatis.gumroad.com/l/AIRBNBWELCOMEBOOK?utm_source=pinterest&utm_medium=social&utm_campaign=vacation_rental_bundle",
+      "imageUrl": "https://public-files.gumroad.com/zbyootria08xekhk7me8rab52u7h"
     }
   ]
 }
