@@ -1,6 +1,6 @@
 {
   "project": "OfferPeek",
-  "version": 2,
+  "version": 3,
   "channels": {
     "facebook": "6af97effece6dfde5fd00693",
     "linkedin": "6af97e48ece6dfde5fd0026d",
@@ -57,6 +57,31 @@
       "id": "fb-005",
       "network": "facebook",
       "text": "A useful mobile-home renovation sequence is usually: fix safety/moisture/structure first, then systems, then finishes.\n\nWe put together a practical guide covering budget, order of work and 2026 cost context:\nhttps://offerpeek.com/blog/how-to-renovate-a-mobile-home/?utm_source=facebook&utm_medium=social&utm_campaign=mobile_home"
+    },
+    {
+      "id": "li-aiopp-001",
+      "network": "linkedin",
+      "text": "Most prospect lists answer one question: “Who exists?”\n\nThat is not the same as knowing who may actually need what you sell.\n\nAI Opportunity Research looks for visible evidence of a business problem, then ranks the opportunity by AI need, buying potential and solution fit.\n\n50 or 100 evidence-verified opportunities:\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
+    },
+    {
+      "id": "li-aiopp-002",
+      "network": "linkedin",
+      "text": "5,000 scraped records can still leave you with hours of filtering.\n\nA smaller list can be more useful when every business includes:\n• visible evidence of need\n• source URLs\n• AI Need score\n• Buyability score\n• recommended solution\n• a personalized outreach angle\n\nThat is the idea behind the AI Opportunity Research Pack:\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
+    },
+    {
+      "id": "li-aiopp-003",
+      "network": "linkedin",
+      "text": "Before contacting a business about AI automation, I want to know one thing:\n\nWhy this company?\n\nNot just its industry. Not just its size.\n\nWhat visible operational gap suggests that an AI receptionist, chatbot, workflow automation or another AI solution could actually help?\n\nThat “why” is what this research pack is built around.\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
+    },
+    {
+      "id": "li-aiopp-004",
+      "network": "linkedin",
+      "text": "Prospecting stack:\nDatabase → filters → enrichment → manual research → qualification → outreach.\n\nFor a small AI agency, that can become a job by itself.\n\nAn alternative is to start with fewer businesses that have already been researched for need, buying potential and solution fit.\n\nAI Opportunity Research Pack:\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
+    },
+    {
+      "id": "li-aiopp-005",
+      "network": "linkedin",
+      "text": "A prospect should not make the list just because it matches an industry filter.\n\nA stronger opportunity has evidence.\n\nExamples:\n• manual booking or intake\n• repeated service-response complaints\n• obvious workflow friction\n• missing automation where the business volume appears to justify it\n\nResearch the problem first. Sell the solution second.\nhttps://karadagsatis.gumroad.com/l/ai-opportunity-research-pack?utm_source=linkedin&utm_medium=social&utm_campaign=ai_opportunity_research"
     }
   ]
 }
