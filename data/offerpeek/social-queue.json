@@ -1,6 +1,6 @@
 {
   "project": "OfferPeek",
-  "version": 6,
+  "version": 7,
   "channels": {
     "facebook": "6af97effece6dfde5fd00693",
     "linkedin": "6af97e48ece6dfde5fd0026d",
@@ -213,6 +213,26 @@
       "id": "fb-cleaning-os-005",
       "network": "facebook",
       "text": "Before you send the next janitorial quote, ask one question: does the price still work after labor burden, supplies, overhead and your target margin are included?\n\nCommercial Cleaning Bid OS is built to answer that before the contract becomes a monthly profit leak.\n\n$129 once. Bid calculator + scope builder + saved bids + proposal + walkthrough checklist.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=margin_check"
+    },
+    {
+      "id": "li-cleaning-os-007",
+      "network": "linkedin",
+      "text": "Owner-operated cleaning companies often price the job, write the scope and send the proposal themselves.\n\nThat means the estimating system has to be simple enough to use every week — but detailed enough to protect margin.\n\nCommercial Cleaning Bid OS combines labor, payroll burden, supplies, overhead and target margin with a scope builder, saved bids and proposal generation.\n\n$129 one-time. No monthly subscription.\nhttps://whop.com/skaylet/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=owner_operated"
+    },
+    {
+      "id": "li-cleaning-os-008",
+      "network": "linkedin",
+      "text": "Winning a commercial cleaning contract at the wrong price is not a win.\n\nIf payroll burden, supplies, supervision and overhead are missing from the bid, the margin problem shows up after the contract starts.\n\nCommercial Cleaning Bid OS is built to catch that before the proposal goes out.\n\n$129 once. Bid calculator + saved bids + scope builder + proposal workflow.\nhttps://whop.com/skaylet/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=wrong_price"
+    },
+    {
+      "id": "fb-cleaning-os-006",
+      "network": "facebook",
+      "text": "If you run a small commercial cleaning company, you probably do not need another giant software platform just to price jobs.\n\nCommercial Cleaning Bid OS gives you the bidding pieces that matter: labor, payroll burden, supplies, overhead, margin, scope of work, saved bids and a client-ready proposal.\n\n$129 one-time. No monthly fee.\nhttps://whop.com/skaylet/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=simple_system"
+    },
+    {
+      "id": "fb-cleaning-os-007",
+      "network": "facebook",
+      "text": "The expensive mistake in commercial cleaning is not losing a bid — it is winning one that was priced too low.\n\nCommercial Cleaning Bid OS helps you build the number from real costs before the contract becomes a monthly margin leak.\n\n$129 one-time. No subscription.\nhttps://whop.com/skaylet/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=underpriced_contract"
     }
   ]
 }
