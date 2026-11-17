@@ -1,6 +1,6 @@
 {
   "project": "OfferPeek",
-  "version": 4,
+  "version": 5,
   "channels": {
     "facebook": "6af97effece6dfde5fd00693",
     "linkedin": "6af97e48ece6dfde5fd0026d",
@@ -126,6 +126,73 @@
       "network": "pinterest",
       "text": "Vacation Rental Welcome Book Template — editable 80-page guest guide in 5 languages, Canva template, A4/US Letter print layouts and a 10-page host operations toolkit. Ideal for short-term rental hosts and property managers. https://karadagsatis.gumroad.com/l/AIRBNBWELCOMEBOOK?utm_source=pinterest&utm_medium=social&utm_campaign=vacation_rental_bundle",
       "imageUrl": "https://public-files.gumroad.com/zbyootria08xekhk7me8rab52u7h"
+    },
+    {
+      "id": "li-cleaning-os-002",
+      "network": "linkedin",
+      "text": "Most commercial cleaning jobs do not become unprofitable after you win them. They become unprofitable when the bid is built.\n\nMiss labor burden, overhead or the difference between markup and margin, and a recurring contract can leak profit every month.\n\nCommercial Cleaning Bid OS helps janitorial contractors price from real costs, build the scope and produce a client-ready proposal in one workflow.\n\n$129 once. No subscription.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=profit_leak"
+    },
+    {
+      "id": "li-cleaning-os-003",
+      "network": "linkedin",
+      "text": "If every commercial cleaning quote starts in a different spreadsheet, notes app or calculator, the problem is not just time. It is consistency.\n\nCommercial Cleaning Bid OS puts labor, payroll burden, supplies, overhead, target margin, scope of work and proposal output into one repeatable workflow.\n\nThe goal: faster quotes, fewer missed costs and a more professional proposal.\n\n$129 one-time.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=repeatable_workflow"
+    },
+    {
+      "id": "li-cleaning-os-004",
+      "network": "linkedin",
+      "text": "A 30% markup is not a 30% margin.\n\nThat sounds basic, but on recurring janitorial contracts a small pricing mistake repeats every month.\n\nCommercial Cleaning Bid OS is built to help cleaning businesses calculate from real job costs first, then apply the target margin and turn the result into a scope + proposal.\n\nOne-time purchase: $129. No monthly software fee.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=linkedin&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=markup_margin"
+    },
+    {
+      "id": "fb-cleaning-os-002",
+      "network": "facebook",
+      "text": "A commercial cleaning contract can look profitable until payroll burden, supplies and overhead are added.\n\nIf those costs are missed in the quote, the mistake repeats every month.\n\nCommercial Cleaning Bid OS helps you calculate the bid from your real costs, build the scope, save the estimate and create a printable client proposal.\n\n$129 once. No subscription.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=profit"
+    },
+    {
+      "id": "fb-cleaning-os-003",
+      "network": "facebook",
+      "text": "Still building commercial cleaning quotes from rough square-foot guesses?\n\nCommercial Cleaning Bid OS gives cleaning business owners one repeatable workflow for:\n✓ labor + payroll burden\n✓ supplies + overhead\n✓ target margin\n✓ scope of work\n✓ saved bids\n✓ client-ready proposals\n\nSpend less time rebuilding estimates and reduce the risk of leaving costs out.\n\n$129 one-time.\nhttps://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=facebook&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=features"
+    },
+    {
+      "id": "pin-cleaning-os-002",
+      "network": "pinterest",
+      "text": "Commercial Cleaning Bid Calculator — price janitorial jobs from labor, payroll burden, supplies, overhead and target margin. Build the scope, save the estimate and create a printable proposal. $129 one-time, no subscription. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=bid_calculator",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-003",
+      "network": "pinterest",
+      "text": "Janitorial Proposal Toolkit — commercial cleaning bid calculator, scope-of-work builder, saved bids, printable client proposals and walkthrough checklist in one browser-based workflow. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=proposal_toolkit",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-004",
+      "network": "pinterest",
+      "text": "How to Bid Commercial Cleaning Jobs — start with real labor cost, payroll burden, supplies, overhead and target margin instead of guessing from price per square foot. Commercial Cleaning Bid OS helps turn those inputs into a repeatable bid and proposal. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=how_to_bid",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-005",
+      "network": "pinterest",
+      "text": "Cleaning Business Pricing Tool — build commercial cleaning estimates using your own wage cost, burden, supplies, overhead and target margin. Save bids and create client-ready proposals without another monthly subscription. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=pricing_tool",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-006",
+      "network": "pinterest",
+      "text": "Office Cleaning Bid Calculator — create repeatable estimates for recurring office cleaning contracts using your actual business costs. Includes scope builder, saved bids, proposal output and walkthrough checklist. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=office_cleaning",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-007",
+      "network": "pinterest",
+      "text": "Commercial Cleaning Scope of Work Builder — organize cleaning tasks, calculate the bid from real costs and create a client-ready proposal in one browser-based toolkit. $129 one-time. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=scope_of_work",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+    },
+    {
+      "id": "pin-cleaning-os-008",
+      "network": "pinterest",
+      "text": "Janitorial Bid Software Without a Monthly Fee — calculate commercial cleaning pricing, build scopes, save estimates and generate printable proposals. Commercial Cleaning Bid OS is a one-time purchase. https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=pinterest&utm_medium=social&utm_campaign=cleaning_bid_os&utm_content=no_subscription",
+      "imageUrl": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
     }
   ]
 }
