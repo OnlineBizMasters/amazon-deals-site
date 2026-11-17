@@ -1,0 +1,97 @@
+{
+  "project": "Commercial Cleaning Bid OS - Classified Promotion",
+  "version": 1,
+  "productUrl": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os",
+  "campaign": "classified_cleaning_bid_os",
+  "creative": {
+    "cover": "https://public-files.gumroad.com/4d7vfin8uxk2myybo79omlf28cap"
+  },
+  "adCopy": {
+    "titleA": "Commercial Cleaning Bid Calculator & Proposal Toolkit",
+    "titleB": "Janitorial Bid Software - One-Time Payment, No Subscription",
+    "short": "Stop guessing commercial cleaning prices. Build bids from real labor, payroll burden, supplies, overhead and target margin, then create a scope of work and client-ready proposal. Commercial Cleaning Bid OS is $129 once with no monthly subscription.",
+    "long": "Commercial Cleaning Bid OS is built for commercial cleaning contractors, janitorial businesses and owner-operators who want a repeatable bidding workflow. Calculate jobs from your real labor cost, payroll burden, supplies, overhead and target margin. Build a scope of work, save bids in your browser, create printable client proposals and use a walkthrough checklist before quoting. A single underpriced recurring contract can cost far more than the toolkit. $129 one-time payment. No subscription."
+  },
+  "targets": [
+    {
+      "site": "Quick Listeds",
+      "url": "https://quicklisteds.com/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=quicklisteds&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "MarketLister",
+      "url": "https://www.marketlister.com/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Local Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=marketlister&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "AdsThumb",
+      "url": "https://www.adsthumb.com/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Business / Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=adsthumb&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "FreelyADS",
+      "url": "https://freelyads.com/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Software & Online Tools",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=freelyads&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "CityBB",
+      "url": "https://citybb.net/en/us/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=citybb&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "PostFreeAds",
+      "url": "https://www.postfreeads.us/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=postfreeads&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "Twarak",
+      "url": "https://twarak.us/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Cleaning Services / Software Development",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=twarak&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "Locanto USA",
+      "url": "https://www.locanto.com/",
+      "status": "verified_active",
+      "cost": "free_or_paid_options",
+      "category": "Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=locanto&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "USAFreeClassifieds",
+      "url": "https://www.usafreeclassifieds.org/classifieds/",
+      "status": "verified_active",
+      "cost": "free / $5 premium",
+      "category": "Business Opportunities / Computer",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=usafreeclassifieds&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    },
+    {
+      "site": "AdBacklist",
+      "url": "https://www.adbacklist.com/",
+      "status": "verified_active",
+      "cost": "free",
+      "category": "Businesses / Services",
+      "utm": "https://karadagsatis.gumroad.com/l/commercial-cleaning-bid-os?utm_source=adbacklist&utm_medium=classified&utm_campaign=classified_cleaning_bid_os"
+    }
+  ]
+}
